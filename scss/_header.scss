@@ -58,6 +58,7 @@ header{
     .menu-mobile{
         position: absolute;
         transform: translateX(100%);
+        pointer-events: none;
         width: 100%;
         padding: 4rem 1.5rem;
         top: 80px; // size of header nav
