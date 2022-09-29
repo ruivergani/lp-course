@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Primary Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Project CodeBoost | Landing Page </title>
+  <meta name="title" content="Project CodeBoost | Landing Page">
+  <meta name="description" content="CodeBoost landing page has been developed to practice concepts about animations and programming languages.">
+  <link rel="stylesheet" href="./css/plugins.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="./favicon.svg">
+  <!-- HTML5 shiv and Respond.js support IE8 or Older for HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:title" content="Project CodeBoost | Landing Page">
+  <meta property="og:description" content="The landing page can be used for anyone who needs to sell a course. It is a highly animated landing page using the most advanced frameworks.">
+  <meta property="og:image" content="./cover.jpg">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:title" content="Project CodeBoost | Landing Page">
+  <meta property="twitter:description" content="The landing page can be used for anyone who needs to sell a course. It is a highly animated landing page using the most advanced frameworks.">
+  <meta property="twitter:image" content="./cover.jpg">
+  <meta name="keywords" content="course, landing page, practice, html, css, javascript, animations, development, computer, computer-science" />
+   <!-- CDN for GSAP-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+  <!-- PACE JS -->
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+</head>
+<body>
+  <!-- <div class="loader" id="preloader">
+    <div class="loading__text">
+      <p>LOADING</p>
+    </div>
+    <div class="progress"></div>
+  </div> -->
+
+  <div class="main-page-content">
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <!-- Logo -->
+        <a href="./" class="logo">
+          <img src="./img/logo.svg" alt="Logo uiboost">
+        </a>
+        <!-- Nav Section -->
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="./">
+                <p>Check our social media</p>
+                <img src="./img/icon-instagram.svg" alt="instagram social media icon" class="icon-instagram">
+              </a>
+            </li>
+          </ul>
+          <!-- Hamburguer menu from lib -->
+          <button class="hamburger hamburger--spring" type="button" id="js-menu-button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </nav>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="menu-mobile">
+        <ul>
+          <li>
+            <a href="./">
+              <p>Check our social media</p>
+              <img src="./img/icon-instagram-black.svg" alt="instagram social media icon" class="icon-instagram">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Main Area -->
+    <main>
+      <!-- Hero Section -->
+      <section class="s-hero">
+        <div class="container">
+          <div class="s-hero__text">
+            <div class="tag-title">
+              <p>uiBoost Challenge 2022</p>
+            </div>
+            <h1>Create a new interface and build knowledge</h1>
+            <p>Create a professional website for free with the Website.com website builder. Domain names, web hosting, website templates, and ecommerce solutions included.</p>
+            <div class="text__buttons">
+              <button class="btn-primary" id="js-btn-primary">
+                <a href="">
+                    <img src="./img/icon-notion-black.svg" alt="icon-notion" title="icon-notion" id="img-notion">
+                    Click Me
+                </a>
+             </button>
+             <img src="./img/cta-effect.png" alt="" class="cta-effect">
+            </div>
+          </div>
+          <div class="s-hero__images">
+            <div class="images__right">
+              <img src="./img/rocket.svg" alt="rocket image" title="rocket image" class="rocket">
+              <img src="./img/rectangle_date.png" alt="blue rectangle" title="blue rectangle" class="rectangle">
+            </div>
+            <div class="right__text">
+              <h3>17 a 21 <br>of August</h3>
+              <div class="text__phrase">
+                <img src="./img/icon-card.svg" alt="icon-email" title="icon-email">
+                <p>Join the exclusive group of the 2nd class on Telegram</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="./img/stars.png" alt="stars-image" title="stars-image" class="stars-img">
+        <img src="./img/space-circle.png" alt="space-circle" title="space-circle" class="space-circle">
+      </section>
+      <!-- Clouds Section -->
+      <section class="s-clouds">
+          <div class="cloud-3">
+            <img src="./img/cloud-3.png" alt="cloud-3" title="cloud-3" class="c-3">
+          </div>
+          <div class="cloud-2">
+            <img src="./img/cloud-2.png" alt="cloud-2" title="cloud-2" class="c-2">
+          </div>
+          <div class="cloud-1">
+            <img src="./img/cloud-1.png" alt="cloud-1" title="cloud-1" class="c-1">
+          </div>
+      </section>
+      <!-- Challenges Section -->
+      <section class="s-challenges">
+        <div class="container">
+          <h2>How will the challenge be?</h2>
+          <ul>
+            <li>
+              <div class="card__challenge">
+                <img src="./img/icon-sany.svg" alt="icon-sany" title="icon-sany">
+                <div class="challenge__text">
+                    <div class="text__title">
+                        <h4>Briefing</h4>
+                        <p>We will make the complete briefing available on Notion with all the features.</p>
+                    </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card__challenge">
+                <img src="./img/icon-abduzido.svg" alt="icon-space" title="icon-space">
+                <div class="challenge__text">
+                    <div class="text__title">
+                        <h4>Instructions</h4>
+                        <p>Carefully read all information before starting to create the interface.</p>
+                    </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card__challenge">
+                <img src="./img/icon-pistol.svg" alt="icon-pistol" title="icon-pistol">
+                <div class="challenge__text">
+                    <div class="text__title">
+                        <h4>Project</h4>
+                        <p>Create the project using the software of your choice. Ex: Figma, XD, Sketch</p>
+                    </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card__challenge">
+                <img src="./img/icon-rocket.svg" alt="icon-rocket" title="icon-rocket">
+                <div class="challenge__text">
+                    <div class="text__title">
+                        <h4>Deliver</h4>
+                        <p>Delivery must be made until the 21/08 through of the form in Notion.</p>
+                    </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a href="#" class="challenges__link">
+            <p>Access Notion</p>
+          </a>
+        </div>
+      </section>
+      <!-- Prize Section -->
+      <section class="s-prizes">
+        <div class="container">
+          <h2>Drove the manager crazy
+            compete for the following prizes</h2>
+          <ul>
+            <li>
+              <div class="card__prize">
+                <img src="./img/icon-uiboost.svg" alt="icon uiboost" title="icon uiboost">
+                <h4>Voucher uiBoost</h4>
+              </div>
+            </li>
+            <li>
+              <div class="card__prize">
+                <img src="./img/icon-pixecalst.svg" alt="icon pixelcast" title="icon pixelcast">
+                <h4>Voucher DS Boost</h4>
+              </div>
+            </li>
+            <li>
+              <div class="card__prize">
+                <img src="./img/icon-notion.svg" alt="icon notion" title="icon notion">
+                <h4>Voucher Course Notion</h4>
+              </div>
+            </li>
+            <li>
+              <div class="card__prize">
+                <img src="./img/icon-kinghost.svg" alt="icon kinghost" title="icon kinghost">
+                <h4>Kit KingHost</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Participate Section -->
+      <section class="s-participate">
+        <div class="container">
+          <h2>Why Join us?</h2>
+          <p class="subtitle-h2">In addition to moving the UI/UX community, the challenge gives you the opportunity to participate in a talent pool that is attracting the attention of large companies in search of good professionals.</p>
+          <ul>
+            <li>
+              <div class="list__join">
+                <img src="./img/check-icon.svg" alt="icon-check" title="icon-check">
+                <p>Gain visibility and make companies see your projects</p>
+              </div>
+            </li>
+            <li>
+              <div class="list__join">
+                <img src="./img/check-icon.svg" alt="icon-check" title="icon-check">
+                <p>Have valuable exchanges with other professionals in the field</p>
+              </div>
+            </li>
+            <li>
+              <div class="list__join">
+                <img src="./img/check-icon.svg" alt="icon-check" title="icon-check">
+                <p>Practice and improve your way
+                  to design and work</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Results Section -->
+      <section class="s-results">
+        <div class="container">
+          <div class="results__left">
+            <img src="./img/icon-fire.svg" alt="icon fire" title="icon fire" class="icon-fire">
+            <h2>
+              Rating criteria
+            </h2>
+            <p>The criteria that we will use to evaluate the projects received will be the visual aesthetics, the functionality of the UI, the feasibility and also the adequacy to the needs presented in the briefing.</p>
+          </div>
+          <div class="results__right">
+            <img src="./img/icon-box.svg" alt="icon-box" title="icon-box" class="icon-box">
+            <h2>Contest result</h2>
+            <p>Live on our Youtube channel, featuring the winners and prizes. For more information, visit our Telegram group.</p>
+            <p>30/08/20 at 20:30h</p>
+          </div>
+        </div>
+      </section>
+      <!-- Newsletter Section -->
+      <section class="s-newsletter">
+        <div class="container">
+          <h3>
+            Did you like it? Let's participate!
+          </h3>
+          <button>
+            <a href="">
+              <img src="./img/icon-notion-black.svg" alt="">
+              <p>Check the Briefing</p>
+            </a>
+          </button>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="footer__left">
+            <p>Done by</p>
+            <ul>
+              <li>
+                <img src="./img/logo-uiboost.svg" alt="logo-uiboost" title="logo-uiboost">
+              </li>
+              <li>
+                <img src="./img/logo-interface20.svg" alt="logo interface" title="logo interface">
+              </li>
+              <li>
+                <img src="./img/logo-designin.svg" alt="logo designin" title="logo designin">
+              </li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <p>Sponsors</p>
+            <ul>
+              <li>
+                <img src="./img/logo-rd.svg" alt="logo-rd" title="logo-rd">
+              </li>
+              <li>
+                <img src="./img/logo-kinghost.svg" alt="logo-kinghost" title="logo-kinghost">
+              </li>
+              <li>
+                <img src="./img/logo-pixelcast.svg" alt="logo-pixelcast" title="logo-pixelcast">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- Cloud images -->
+      <div class="cloud-bottom">
+        <img src="./img/clouds-bottom.png" alt="cloud footer" title="cloud footer" class="cloud-footer-1">
+      </div>
+    </main>
+  </div>
+  <script src="js/plugins.js"></script>
+  <script src="js/all.js"></script>
+</body>
+</html>

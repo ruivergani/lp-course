@@ -1,0 +1,34 @@
+@keyframes changeColor {
+    0% {
+        fill: #01D4E4;
+    }
+
+    50% {
+        fill: #5935FF;
+    }
+
+    100% {
+        fill: #fff;
+    }
+}
+@keyframes progressBar {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes floating{
+    0%{
+        transform: translateY(0); // move in the Y eixo 
+    }
+    66%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
