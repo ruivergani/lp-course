@@ -1,8 +1,8 @@
 // AOS Animate 
 AOS.init({
-    duration : 1500, // duration of the animation
+    duration : 1000, // duration of the animation
     once: true       // execute only once
-});
+  });
 
 // Button Hamburguer menu
 const mobileButton = document.getElementById('js-menu-button');
