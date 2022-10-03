@@ -200,7 +200,7 @@
     .cloud-3{
         position: absolute;
         top: -44rem;
-        left: 15rem;
+        left: 18rem;
         width: 100%;
         background-size: cover;
     }
@@ -254,6 +254,12 @@
         }
         .cloud-3{
             top: -21rem;
+        }
+    }
+    @media only screen and (max-width:2560px) and (min-width: 1440px){
+        .cloud-3{
+            top: -30rem !important;
+            left: 25rem;
         }
     }
 }
