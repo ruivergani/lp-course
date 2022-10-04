@@ -23,3 +23,15 @@ function changeImgWhite(){
 function changeImgBlack(){
     imgNotion.setAttribute('src', '/img/icon-notion-black.svg');
 }
+
+// Change menu background color on scroll
+const header = document.getElementById('js-header');
+document.addEventListener('scroll', () => {
+    // Using Window.pageYOffset to get position of the page on the viewport
+    if(window.pageYOffset > 50){
+        header.classList.add('bgON');
+    }
+    else{
+        header.classList.remove('bgON');
+    }
+});
