@@ -197,9 +197,11 @@
     justify-content: center;
     flex-direction: row;
     position: relative;
+    background-color: white;
+    margin: 0 auto;
     .cloud-3{
         position: absolute;
-        top: -44rem;
+        top: -30rem;
         left: 18rem;
         width: 100%;
         background-size: cover;
@@ -213,25 +215,31 @@
     }
     .cloud-1{
         position: absolute;
-        top: -33rem;
+        top: -32rem;
         left: 0;
         width: 100%;
         background-size: cover;
     }
+    @media (max-width: 1050px){
+        .cloud-1{
+            top: -27rem;
+        }
+    }
     @media (max-width: 560px){
         .cloud-1{
-            top: -6rem;
+            top: -13rem;
         }
         .cloud-2{
-            top: -7rem;
+            top: -14rem;
         }
         .cloud-3{
-            top: -8rem;
+            top: -10rem;
+            left: 0 !important;
         }
     }
     @media only screen and (max-width:991px) and (min-width: 560px){
         .cloud-1{
-            top: -8rem;
+            top: -14rem;
         }
         .cloud-2{
             top: -10rem;
@@ -247,19 +255,13 @@
     }
     @media only screen and (max-width:991px) and (min-width: 800px){
         .cloud-1{
-            top: -16rem;
+            top: -19rem;
         }
         .cloud-2{
             top: -21rem;
         }
         .cloud-3{
-            top: -21rem;
-        }
-    }
-    @media only screen and (max-width:2560px) and (min-width: 1440px){
-        .cloud-3{
-            top: -30rem !important;
-            left: 25rem;
+            top: -10rem;
         }
     }
 }
@@ -267,7 +269,7 @@
     padding-bottom: 9.7rem;
     margin-top: -120px;
     position: relative;
-    background-color: white;
+    background-color: white !important;
     .container{
         z-index: 5000;
         margin-top: 4rem;
@@ -292,6 +294,9 @@
         }
     }
     // Responsive
+    @media (max-width: 560px){
+        margin-top: -60px;
+    }
     @media (max-width: 991px){
         padding-bottom: 4rem;
         .container{
@@ -328,6 +333,9 @@
                 }
             }
         }
+    }
+    @media only screen and (max-width:991px) and (min-width: 560px){
+        margin-top: -50px;
     }
 }
 .s-prizes{
