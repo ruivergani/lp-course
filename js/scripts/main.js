@@ -18,10 +18,10 @@ btnPrimary.addEventListener('mouseover', changeImgWhite);
 btnPrimary.addEventListener('mouseout', changeImgBlack);
 
 function changeImgWhite(){
-    imgNotion.setAttribute('src', '/img/icon-notion-white.svg');
+    imgNotion.setAttribute('src', './img/icon-notion-white.svg');
 }
 function changeImgBlack(){
-    imgNotion.setAttribute('src', '/img/icon-notion-black.svg');
+    imgNotion.setAttribute('src', './img/icon-notion-black.svg');
 }
 
 // Change menu background color on scroll
